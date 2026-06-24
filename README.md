@@ -10,12 +10,12 @@ To clean and prepare a raw e-commerce transactional dataset for analysis by iden
 Microsoft Excel
 
 ## Process
-- Checked for duplicate order IDs — none found
-- Identified and handled missing values in the Coupon Code column — filled with "No Coupon" to indicate no coupon was used
+- Checked for duplicate order IDs but none was found
+- Identified and handled missing values in the Coupon Code column and them filled with "No Coupon" to indicate no coupon was used
 - Verified date formats were consistent across all rows
 - Formatted Unit Price and Total Price columns to 2 decimal places
-- Verified Total Price accuracy by checking it matched Quantity × Unit Price for all 1,200 rows — all matched correctly
-- Checked text columns (Payment Method, Order Status) for inconsistencies — none found
+- Verified Total Price accuracy by checking it matched Quantity × Unit Price for all 1,200 rows and all matched correctly
+- Checked text columns (Payment Method, Order Status) for inconsistencies but none was found
 
 ## Key Finding
 The dataset was relatively clean with no duplicates and no critical missing values. The only data quality issue was blank Coupon Code entries which were handled appropriately.
